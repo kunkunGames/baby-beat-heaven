@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#1e1535" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>베이비 비트 천국 — BABY BEAT HEAVEN</title>
+<meta name="description" content="새벽 2시의 육퇴 미라클! 리듬천국 감성과 코미디 연출이 폭발하는 하이퍼 육아 리듬 게임" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Outfit:wght@700;900&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
+  html, body {
+    width: 100%; height: 100%; height: 100dvh;
+    overflow: hidden;
+    background: #140e24;
+    font-family: "Jua", "Outfit", "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+    touch-action: none;
+  }
+  #wrap {
+    position: fixed; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at 50% 42%, #291c4a 0%, #110b1f 100%);
+  }
+  canvas#game {
+    display: block;
+    width: 100%; height: 100%;
+    max-width: 100vw; max-height: 100dvh;
+    object-fit: contain;
+    cursor: pointer;
+    touch-action: none;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720" aria-label="베이비 비트 천국 리듬 게임"></canvas>
+</div>
+<script>
+/*__GAME_BUNDLE__*/
+</script>
+</body>
+</html>
